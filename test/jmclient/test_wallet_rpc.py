@@ -848,7 +848,8 @@ class TrialTestWRPC_JWT(WalletRPCTestBase, unittest.TestCase):
     ):
         jlog.debug(f"failed_refresh_response_handler '{message}' ({error_description})")
         if response.code != 400:
-            jlog.debug(f"response: {response}")
+            jlog.debug(f"headers: ({response.headers})")
+            jlog.debug(f"reason: '{response.phrase}'")
         assert response.code == 400
         body = yield readBody(response)
         json_body = json.loads(body.decode("utf-8"))
