@@ -4,7 +4,7 @@
 * [Installation on Windows](#installation-on-windows)
 * [Alternative/custom installation](#alternativecustom-installation)
 
-JoinMarket requires Python >=3.8, <3.13.
+JoinMarket requires Python >=3.8, <3.14.
 
 ### Notes on upgrading, binaries and compatibility
 
@@ -136,7 +136,7 @@ If (a), then note the following two points:
 
 ##### Installing Bitcoin Core
 
-If you haven't done so yet, install Bitcoin Core, version 25.1 or newer, as described [here](https://bitcoin.org/en/full-node#windows-10). After starting it for the first time, it will start the Initial Block Download. JoinMarket cannot be used until this is finished. More information on that can be found [here](https://bitcoin.org/en/full-node#initial-block-downloadibd).
+If you haven't done so yet, install Bitcoin Core, version 28.1 or newer, as described [here](https://bitcoin.org/en/full-node#windows-10). After starting it for the first time, it will start the Initial Block Download. JoinMarket cannot be used until this is finished. More information on that can be found [here](https://bitcoin.org/en/full-node#initial-block-downloadibd).
 
 ##### Configuring Bitcoin Core
 
